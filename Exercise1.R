@@ -1,4 +1,4 @@
-refine2<-read_excel("F:/0Springboard/DWEx1/refine.xlsx") 
+refine2<-read.csv("F:/0Springboard/DWEx1/refine_original.csv") 
 
 refine2$company <- gsub("fillips|phillips|phillipS|Phillips|phillps|phlips|phllips","philips",refine2$company)
 refine2$company <- gsub("AKZO|Akzo|akzO|akz0|ak zo","akzo",refine2$company)
